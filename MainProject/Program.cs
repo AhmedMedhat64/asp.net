@@ -1,5 +1,7 @@
 using MainProject.Data;
+using MainProject.Middlewares;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,9 +30,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<RateLimitingMiddleware>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ProfilingMiddleware>();
 
 app.MapControllers();
 
