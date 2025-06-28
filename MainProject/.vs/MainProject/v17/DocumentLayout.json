@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ahmed\\C#\\asp.net\\MainProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ahmood\\AppData\\Roaming\\Microsoft\\UserSecrets\\3883f5fe-400f-4a9f-82cc-5bfea9a3a6e6\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\mainproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:mainproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainProject",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\MainProject.csproj",
+              "RelativeDocumentMoniker": "MainProject.csproj",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\MainProject.csproj",
+              "RelativeToolTip": "MainProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T14:23:33.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T14:23:30.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T14:23:24.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Ahmood\\AppData\\Roaming\\Microsoft\\UserSecrets\\3883f5fe-400f-4a9f-82cc-5bfea9a3a6e6\\secrets.json",
+              "ToolTip": "C:\\Users\\Ahmood\\AppData\\Roaming\\Microsoft\\UserSecrets\\3883f5fe-400f-4a9f-82cc-5bfea9a3a6e6\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T14:23:13.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "config.json",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\config.json",
+              "RelativeDocumentMoniker": "config.json",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\config.json",
+              "RelativeToolTip": "config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T14:08:50.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T13:40:46.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigController.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ConfigController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConfigController.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ConfigController.cs",
+              "RelativeToolTip": "Controllers\\ConfigController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T13:38:14.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RateLimitingMiddleware.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\RateLimitingMiddleware.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\RateLimitingMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:34:06.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogActivityFilter.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Filters\\LogActivityFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogActivityFilter.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Filters\\LogActivityFilter.cs",
+              "RelativeToolTip": "Filters\\LogActivityFilter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:33:41.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T05:08:19.078Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
