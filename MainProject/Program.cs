@@ -1,3 +1,4 @@
+using MainProject;
 using MainProject.Data;
 using MainProject.Filters;
 using MainProject.Middlewares;
@@ -7,6 +8,10 @@ using System.Runtime;
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("config.json");
 // Add services to the container.
+
+
+var attachmentOptions = builder.Configuration.GetSection("Attachments").Get<AttachmentOptions>();
+builder.Services.AddSingleton(attachmentOptions);
 
 builder.Services.AddControllers(options =>
 {
