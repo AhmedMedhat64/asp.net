@@ -9,16 +9,22 @@ namespace MainProject.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly ApplicationDbContext _dbcontext;
+        private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(ApplicationDbContext dbcontext)
+        public ProductsController(ApplicationDbContext dbcontext, 
+            ILogger<ProductsController> logger)
         {
             _dbcontext = dbcontext;
+            _logger = logger;
         }
 
         [HttpPost]
         [Route("")]
 
-        public ActionResult<int> CreateProduct(Product product)
+        public ActionResult<int> CreateProduct([FromQuery] Product product,
+            [FromQuery(Name = "p2")] Product product2,
+            Product product1,
+            [FromHeader(Name = "Accept-Language")] string langauge)
         {
             product.Id = 0;
             _dbcontext.Set<Product>().Add(product);
@@ -47,10 +53,13 @@ namespace MainProject.Controllers
             return Ok(records);
         }
         [HttpGet]
-        [Route("{id}")]
-        public ActionResult GetById(int id)
+        [Route("GetById")]
+        public ActionResult GetById(int id)   
         {
+            _logger.LogDebug("Product #{id} not fount: " + id);
             var record = _dbcontext.Set<Product>().Find(id);
+            if (record == null)
+                _logger.LogWarning("Product #{id} not fount: " + id);
             return record == null ? NotFound() : Ok(record);
         }
         [HttpDelete]

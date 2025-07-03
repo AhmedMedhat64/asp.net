@@ -2,7 +2,7 @@
   {
     "ContainingType": "MainProject.Controllers.ConfigController",
     "Method": "GetConfig",
-    "RelativePath": "",
+    "RelativePath": " Config",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -18,9 +18,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sku",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sku",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "product1",
         "Type": "MainProject.Data.Product",
         "IsRequired": true
+      },
+      {
+        "Name": "Accept-Language",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -73,9 +108,9 @@
   },
   {
     "ContainingType": "MainProject.Controllers.ProductsController",
-    "Method": "GetById",
+    "Method": "DeleteProduct",
     "RelativePath": "Products/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -89,16 +124,16 @@
   },
   {
     "ContainingType": "MainProject.Controllers.ProductsController",
-    "Method": "DeleteProduct",
-    "RelativePath": "Products/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "GetById",
+    "RelativePath": "Products/GetById",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

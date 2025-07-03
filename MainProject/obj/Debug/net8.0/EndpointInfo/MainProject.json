@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/": {
+    "/ Config": {
       "get": {
         "tags": [
           "Config"
@@ -21,6 +21,59 @@
       "post": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Sku",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Sku",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -133,7 +186,7 @@
         }
       }
     },
-    "/Products/{id}": {
+    "/Products/GetById": {
       "get": {
         "tags": [
           "Products"
@@ -141,8 +194,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -154,7 +206,9 @@
             "description": "Success"
           }
         }
-      },
+      }
+    },
+    "/Products/{id}": {
       "delete": {
         "tags": [
           "Products"
