@@ -56,6 +56,11 @@
         "Name": "Accept-Language",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -125,7 +130,7 @@
   {
     "ContainingType": "MainProject.Controllers.ProductsController",
     "Method": "GetById",
-    "RelativePath": "Products/GetById",
+    "RelativePath": "Products/id",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

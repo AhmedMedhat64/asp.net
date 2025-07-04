@@ -2,6 +2,7 @@ using MainProject;
 using MainProject.Data;
 using MainProject.Filters;
 using MainProject.Middlewares;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime;
 
@@ -45,6 +46,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(builder => builder.UseSqlSer
 /* check if System.Globalization.Invariant = true / you can make it false from MainProject.csproj
 Console.WriteLine(AppContext.GetData("System.Globalization.Invariant"));
 */
+builder.Services.AddAuthentication()
+    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
 
 var app = builder.Build();
 

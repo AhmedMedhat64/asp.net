@@ -73,6 +73,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "Date",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "requestBody": {
@@ -186,7 +193,7 @@
         }
       }
     },
-    "/Products/GetById": {
+    "/Products/id": {
       "get": {
         "tags": [
           "Products"

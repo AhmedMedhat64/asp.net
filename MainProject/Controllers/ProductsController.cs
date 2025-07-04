@@ -1,11 +1,14 @@
 ﻿using MainProject.Data;
 using MainProject.Filters;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace MainProject.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly ApplicationDbContext _dbcontext;
@@ -24,7 +27,8 @@ namespace MainProject.Controllers
         public ActionResult<int> CreateProduct([FromQuery] Product product,
             [FromQuery(Name = "p2")] Product product2,
             Product product1,
-            [FromHeader(Name = "Accept-Language")] string langauge)
+            [FromHeader(Name = "Accept-Language")] string langauge,
+            [FromHeader(Name = "Date")] string date)
         {
             product.Id = 0;
             _dbcontext.Set<Product>().Add(product);
@@ -49,11 +53,15 @@ namespace MainProject.Controllers
         [Route("")]
         public ActionResult<IEnumerable<Product>> Get()
         {
+            var userName = User.Identity.Name;
+            var userId = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var records = _dbcontext.Set<Product>().ToList();
             return Ok(records);
         }
         [HttpGet]
-        [Route("GetById")]
+        [Route("id")]
+        [AllowAnonymous]
+        [LogSensitiveAction]
         public ActionResult GetById(int id)   
         {
             _logger.LogDebug("Product #{id} not fount: " + id);
