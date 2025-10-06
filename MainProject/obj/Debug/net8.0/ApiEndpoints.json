@@ -93,26 +93,6 @@
   },
   {
     "ContainingType": "MainProject.Controllers.ProductsController",
-    "Method": "Get",
-    "RelativePath": "Products",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MainProject.Data.Product, MainProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "MainProject.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "Products/{id}",
     "HttpMethod": "DELETE",
@@ -142,5 +122,51 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MainProject.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "Products/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MainProject.Data.Product, MainProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MainProject.Controllers.UserController",
+    "Method": "AuthenticateUser",
+    "RelativePath": "User/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MainProject.Controllers.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

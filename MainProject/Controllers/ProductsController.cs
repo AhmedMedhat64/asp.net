@@ -1,4 +1,5 @@
-﻿using MainProject.Data;
+﻿using MainProject.Authrization;
+using MainProject.Data;
 using MainProject.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -23,7 +24,6 @@ namespace MainProject.Controllers
 
         [HttpPost]
         [Route("")]
-
         public ActionResult<int> CreateProduct([FromQuery] Product product,
             [FromQuery(Name = "p2")] Product product2,
             Product product1,
@@ -50,9 +50,12 @@ namespace MainProject.Controllers
             return Ok();
         }
         [HttpGet]
-        [Route("")]
+        [Route("list")]
+        //[Authorize(Policy = "SuperUsersOnly")]
+        [Authorize(Policy = "EmployeesOnly")]
         public ActionResult<IEnumerable<Product>> Get()
         {
+            //var isAdmin = User.IsInRole("Admin");
             var userName = User.Identity.Name;
             var userId = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var records = _dbcontext.Set<Product>().ToList();
@@ -60,7 +63,6 @@ namespace MainProject.Controllers
         }
         [HttpGet]
         [Route("id")]
-        [AllowAnonymous]
         [LogSensitiveAction]
         public ActionResult GetById(int id)   
         {

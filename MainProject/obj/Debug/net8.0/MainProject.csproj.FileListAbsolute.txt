@@ -173,3 +173,4 @@ D:\Ahmed\C#\asp.net\MainProject\obj\Debug\net8.0\MainProject.genruntimeconfig.ca
 D:\Ahmed\C#\asp.net\MainProject\obj\Debug\net8.0\ref\MainProject.dll
 D:\Ahmed\C#\asp.net\MainProject\bin\Debug\net8.0\MainProject.staticwebassets.runtime.json
 D:\Ahmed\C#\asp.net\MainProject\bin\Debug\net8.0\config.json
+D:\Ahmed\C#\asp.net\MainProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

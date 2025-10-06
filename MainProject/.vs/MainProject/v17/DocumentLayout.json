@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Ahmed\\C#\\asp.net\\MainProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|d:\\ahmed\\c#\\asp.net\\mainproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB226C8E-9400-4FD3-BC39-38AF92BC1EA1}|MainProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Data\\Product.cs",
-              "RelativeDocumentMoniker": "Data\\Product.cs",
-              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Data\\Product.cs",
-              "RelativeToolTip": "Data\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:15:36.456Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BasicAuthenticationHandler.cs",
-              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\BasicAuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "BasicAuthenticationHandler.cs",
-              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\BasicAuthenticationHandler.cs",
-              "RelativeToolTip": "BasicAuthenticationHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T06:16:36.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T15:22:56.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwD8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T15:18:53.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAArwDEAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAD4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T05:08:19.078Z",
+              "WhenOpened": "2025-07-08T09:21:10.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T09:07:50.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Ahmed\\C#\\asp.net\\MainProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T08:56:26.012Z",
               "EditorCaption": ""
             }
           ]
